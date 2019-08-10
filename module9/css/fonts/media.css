@@ -1,0 +1,44 @@
+@media (min-width: 320px) {
+.container {
+ max-width: 300px;
+}
+.container-fluid { 
+min-height: 540px;
+}
+}
+.pt-4{
+  padding-top: ;
+}
+@media (min-width: 748px) {
+.container {
+max-width: 728px;
+}
+.container-fluid { 
+min-height: 700px;
+}
+}
+  
+@media (min-width: 942px) {
+.container {
+max-width: 922px;
+}
+.container-fluid { 
+min-height: 700px;
+}
+.container-fluid:last-child { 
+min-height: auto;
+}
+}
+  
+@media (min-width: 1200px) {
+.container {
+max-width: 1180px;
+}
+.container-fluid {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+}
