@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400&display=swap");
 * { 
 box-sizing: border-box;
 -webkit-box-sizing: border-box;
@@ -19,6 +22,7 @@ padding-top: 30px;
 }
 .link-logo { 
 display: block;
+margin: 0px 20px;
 }
 .page-nav__link { 
 text-decoration: none;
@@ -69,7 +73,7 @@ justify-content: space-between;
 }
 .page-nav__list-menu svg { 
 display: block;
-width: 15px;
+width: 18px;
 height: 15px;
 fill: #fff;
 }
@@ -83,7 +87,7 @@ z-index: 1;
 }
 .banner { 
 position: relative;
-background-image: url(../images/Layer\ 15.png);
+background-image: url(../images/Layer15.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -116,7 +120,7 @@ line-height: 1.2;
 font-weight: 700;
 color: #fff;
 text-transform: uppercase;
-margin: 0 0 110px; 
+margin: 0 170px 110px; 
 }
 .section-banner__button { 
 border: 3px solid #fff;
@@ -151,7 +155,7 @@ line-height: 1.2;
 color: #000;
 }
 .service__title--italic { 
-font-family: 'Kaushan Script', cursive;
+font-family: 'Kaushan Script';
 font-weight: 400;
 text-transform: capitalize;
 font-size: 24px;
@@ -173,7 +177,7 @@ margin: 45px auto 0px ;
 }
 .service__list { 
 list-style: none;
-margin: 0;
+margin: 73px;
 padding: 0;
 display: -webkit-box;
 display: -ms-flexbox;
@@ -223,7 +227,7 @@ font-family: 'Montserrat', sans-serif;
 text-transform: uppercase;
 font-size: 15px;
 line-height: 1.6;
-font-weight: 400;
+/* font-weight: 400; */
 color: #000;
 display: inline-block;
 vertical-align: top;
@@ -246,7 +250,7 @@ margin-top: 0;
 text-align: center;
 }
 .team__title--italic { 
-font-family: 'Kaushan Script', cursive;
+font-family: 'Kaushan Script';
 font-weight: 400;
 text-transform: capitalize;
 font-size: 24px;
@@ -266,7 +270,7 @@ margin-bottom: 42px;
 }
 .team__text { 
 text-align: center;
-margin: 0 0 92px;
+margin: 0 217px 92px;
 font-family: 'Roboto', sans-serif;
 color: #999999;
 font-size: 15px;
@@ -286,13 +290,14 @@ margin: 0;
 }
 .team__name { 
 text-align: center;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat';
 font-size: 14px;
 line-height: 1.2;
 font-weight: 400;
 text-transform: uppercase;
 color: #000;
 margin: 30px 0 14px;
+
 }
 .team__occupation { 
 text-align: center;
@@ -350,24 +355,24 @@ background-image: url(../images/icons/sprite1.svg);
 background-repeat: no-repeat;
 background-position: center;
 }
-  .team__link--twitter:hover { 
-    background: #f38181;
-    background-image: url(../img/icons/sprite1.svg#icon-twitter);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .team__link--pinterest:hover { 
-    background: #f38181;
-    background-image: url(../img/icons/sprite1.svg#icon-pinterest);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .team__link--instagram:hover { 
-    background: #f38181;
-    background-image: url(../img/icons/sprite1.svg#icon-instagram);
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.team__link--twitter:hover { 
+background: #f38181;
+background-image: url(../images/icons/sprite1.svg#icon-twitter);
+background-repeat: no-repeat;
+background-position: center;
+}
+.team__link--pinterest:hover { 
+background: #f38181;
+background-image: url(../images/icons/sprite1.svg#icon-pinterest);
+background-repeat: no-repeat;
+background-position: center;
+}
+.team__link--instagram:hover { 
+background: #f38181;
+background-image: url(../images/icons/sprite1.svg#icon-instagram);
+background-position: center;
+background-repeat: no-repeat;
+}
 .team__icons a { 
 display: -webkit-box;
 display: -ms-flexbox;
@@ -499,7 +504,7 @@ color: #000;
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) { 
 .banner { 
- background-image: url(../images/Layer\ 15@2x.png);
+ background-image: url(../images/Layer15@2x.jpg);
 }
 }
 
@@ -507,12 +512,3 @@ color: #000;
 
 
 
-.page-nav__link--shopping-cart {
-  color: white;
-  text-decoration: none;
-
-  transition: color 0.7s
-}
-.nav_item:hover .nav_click {
-  color: gold;
-}
